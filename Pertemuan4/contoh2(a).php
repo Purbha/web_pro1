@@ -1,7 +1,7 @@
-<!doctype html public "-//W3C//DTD HTML 4.0 //EN"> 
+<!DOCTYPE html>
 <html>
 <head>
-       <title>Contoh 2</title>
+       <title>Contoh 2(a)</title>
 </head>
 <body bgcolor="#FFFFCC">
 	<form action="contoh2(b).php" method="get">

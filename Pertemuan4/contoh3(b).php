@@ -1,7 +1,7 @@
-<!doctype html public "-//W3C//DTD HTML 4.0 //EN"> 
+<!DOCTYPE html>
 <html>
 <head>
-       <title>Contoh 2</title>
+       <title>Contoh 3(b)</title>
 </head>
 <body bgcolor="#FFCCFF">
 <?php
