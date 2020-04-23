@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
-       <title>Contoh 3</title>
+       <title>Contoh 2</title>
 </head>
 <body text=#666633 bgcolor=#ffcccc>
       <?php

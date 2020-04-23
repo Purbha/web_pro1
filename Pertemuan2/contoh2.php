@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contoh Kedua</title>
+</head>
+<body>
 <?php
 	$nama = "Jonny";
 	$usia = 20;
@@ -7,3 +13,6 @@
 	echo "Nama adik saya adalah ".$namaadik."<br>";
 	echo "Usia adik saya adalah ".$usiaadik."<br>";
 ?>
+</body>
+</html>
+

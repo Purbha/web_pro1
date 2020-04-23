@@ -1,5 +1,13 @@
-<title>Contoh Bahasa PHP</title>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contoh Bahasa PHP</title>
+</head>
+<body>
 <?php
-	echo "Ini adalah contoh script PHP pertama saya. <br />";
-	echo "saya sedang belajar PHP <br />";
+	echo "<p>Ini adalah contoh script PHP pertama saya</p>";
+	echo "<p>saya sedang belajar PHP</p>";
 ?>
+</body>
+</html>
+
