@@ -1,11 +1,24 @@
-<?php 
-
-function ambil_barang($kode=NULL)
+<?php
+function con()
+{
+	$host = "127.0.0.1";
+	$user = "dba_penjualan";
+	$pass = "dba_penjualan";
+	$db = "dba_penjualan";	
+	return mysqli_connect($host,$user,$pass,$db);
+}
+	
+function ambil($kode=NULL)
 {
 	$konek = con();
 	if ($kode != NULL) { $cari="WHERE kdbar = '$kode'"; } else { $cari=""; }
 	$query = mysqli_query($konek,"SELECT * FROM barang $cari ORDER BY kdbar ASC");
 	if (!$query) { echo mysqli_error(); } else { return $query; } 
+}
+
+function garansi($kode)
+{
+	if ($kode == 1) { return "Ya"; } else { return "Tidak"; } 
 }
 
 function input_barang()
@@ -39,13 +52,12 @@ function update_barang()
 	if (!$result) { echo mysqli_error($konek); }
 }
 
-function hapus_barang()
+function hapus()
 {
 	$konek = con();
-	$kdbar = $_POST['kdbar'];
+	$kdbar = $_GET['kdbar'];
 	$sql = "DELETE FROM barang WHERE kdbar='$kdbar'";
 	$result = mysqli_query($konek,$sql);				
 	if (!$result) { echo mysqli_error($con); }
 }
-
 ?>

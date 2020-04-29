@@ -1,6 +1,7 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<title>Contoh 3</title>
+	<title>Contoh 3</title>
 </head>
 <?php 
 	if (isset($_POST['border'])) { $border = $_POST['border']; } else { $border = 0; } 
@@ -9,7 +10,6 @@
 	if (isset($_POST['bg'])) { $bg = $_POST['bg']; } else { $bg = '#CCCCCC"'; } 
 	if (isset($_POST['tb_align'])) { $tb_align = $_POST['tb_align']; } else { $tb_align = 'center"'; } 
 ?>
-
 <body bgcolor="<?php echo $bg; ?>">
 <form action="contoh3.php" method="post">
     <table border="<?php echo $border ?>" align="<?php echo $tb_align ?>" cellpadding="<?php echo $cp ?>"
