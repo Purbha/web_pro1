@@ -1,4 +1,5 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head><title>Mysql Connect</title></head>
 <body>
     <h2>How 2 Connect To Mysql Database</h2>

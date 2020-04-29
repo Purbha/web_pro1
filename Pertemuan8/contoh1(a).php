@@ -1,6 +1,7 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<title>Buku Tamu</title>
+	<title>Buku Tamu</title>
 </head>
 <body bgcolor="#99FFFF">
 <form action="contoh1(b).php" method="post">
