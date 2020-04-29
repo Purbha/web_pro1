@@ -10,7 +10,9 @@
 		$garansi = $row['garansi'];
 	}
 ?>
-<a href="index.php?page=master_barang">View Barang</a>
+<font face="Geneva, Arial, Helvetica, sans-serif" size="+2" color="#666666">
+	<a href="index.php?page=master_barang">View Barang</a>
+</font>
 <table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0">
 	<tr>
     	<td align="center" colspan="2" bgcolor="#999999"><strong>Update Data Barang</strong></td>

@@ -1,6 +1,7 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<title>Edit Pelanggan</title>
+	<title>Edit Pelanggan</title>
 </head>
 <body background="2.jpg">
 <?php
@@ -15,7 +16,6 @@
 		$jk = $row['jk'];
 	}
 ?>
-
 <table bgcolor="#CCCCCC" bordercolor="#FFFFFF" border="2" cellpadding="5" cellpadding="0">
 	<tr>
     	<td bgcolor="#999999" align="center" colspan="2"><strong>Ubah Data Pelanggan</strong></td>

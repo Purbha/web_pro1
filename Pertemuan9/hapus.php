@@ -1,6 +1,7 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<title>Hapus Pelanggan</title>
+	<title>Hapus Pelanggan</title>
 </head>
 <body background="2.jpg">
 <?php

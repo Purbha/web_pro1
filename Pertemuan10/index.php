@@ -1,6 +1,6 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Master Data Barang</title>
 	<link rel="shortcut icon" href="favicon.ico">
 </head>
