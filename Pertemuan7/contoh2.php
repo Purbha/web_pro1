@@ -6,8 +6,7 @@
 
 <body>
 <?php
-	function hitung_total($harga,$jumbel)
-	{
+	function hitung_total($harga,$jumbel) {
 		$hasil = $harga * $jumbel;
 		return $hasil;
 	}
@@ -24,8 +23,7 @@
 </p>
 <p>
 	<?php
-		$harga = 10000;
-		$jumbel = 3; 
+		$harga = 10000;	$jumbel = 3; 
 	?>
 	Harga satuan adalah <?php print($harga); ?><br>
     Jumlah beli adalah <?php print($jumbel); ?>
